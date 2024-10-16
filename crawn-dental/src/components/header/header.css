@@ -1,0 +1,46 @@
+.header-container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0px 10%;
+  }
+  
+  .header-sections-wrapper {
+    display: flex;
+  }
+  
+  .header-section {
+    text-align: center;
+    background-color: white;
+    padding: 0px 20px;
+    border-radius: 15px;
+  }
+
+  .header-section-phone {
+    padding: 0px 20px;
+  }
+
+  .header-label-phone {
+    font-weight: normal;
+  }
+
+  .header-info-phone {
+    font-weight: bold;
+  }
+  
+  .header-label {
+    font-weight: bold;
+    margin-bottom: -14px;
+    color: #28B7BB;
+  }
+  
+  .header-info {
+    font-size: 0.9em;
+    color: #000000;
+  }
+
+  .header-logo {
+    height: auto;
+    width: auto;
+    margin-right: 50%;
+  }
