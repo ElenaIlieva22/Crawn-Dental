@@ -1,6 +1,6 @@
 import React from "react";
-import '../Header/Header.css';
-import logo from '/Users/User/Desktop/WEB-DEV/Crawn-Dental-Care/crawn-dental-care/src/assets/Logo/logo.png'
+import '../header/header.css';
+import Logo from ''
 
 const Header = () => {
   return (

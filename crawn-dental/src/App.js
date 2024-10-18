@@ -1,6 +1,6 @@
 import './App.css';
-import Header from './components/Header/Header';
-import Backgrounds from "/Users/User/Desktop/WEB-DEV/Crawn-Dental-Care/crawn-dental-care/src/components/Backgrounds/background";
+import Header from '../src/components/header/header.jsx';
+import Backgrounds from "../src/components/backgrounds/backgrounds.jsx";
 
 function App() {
   return (
