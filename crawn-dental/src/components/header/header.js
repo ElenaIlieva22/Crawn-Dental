@@ -1,11 +1,14 @@
 import React from "react";
-import '../header/header.css';
+import "./header.css"
+import logo from "../../assets/Logo/logo.png"
 
-const Header = () => {
+
+
+function Header() {
   return (
     <header className="header-container">
        <div className="header-logo">
-        <img src={logo} alt="Logo" />
+        <img src={logo} alt="logo" />
       </div>
       <div className="header-section-phone">
         <p className="header-label-phone">Call us now</p>
