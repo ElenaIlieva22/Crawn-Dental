@@ -3,8 +3,9 @@ import "./backgrounds.css"
 
 function Backgrounds() {
   return (
-    <div>
+    <div className='bg-section'>
       <div className="first-bg">
+        <img src="" alt="" />
       </div>
 
       <div className="secound-bg">
