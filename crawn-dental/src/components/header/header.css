@@ -6,9 +6,10 @@
 
 .header-container {
   width: 100%;
-  position: relative;
   margin-right: auto;
   margin-left: auto;
+  position: absolute;
+  z-index: 1;
 }
 
 @media screen and (min-width: 767px) {
