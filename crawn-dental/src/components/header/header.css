@@ -1,7 +1,6 @@
 .body {
   box-sizing: border-box;
   margin: 0 auto;
-  /* width: 1440px; */
 }
 
 .header-container {
@@ -11,10 +10,17 @@
     padding: 0px 10%;
     position: absolute;
     z-index: 1;
+    max-width: 1200px;
   }
   
-  .header-sections-wrapper {
+  .header-info {
     display: flex;
+    flex-direction: row;
+  }
+
+
+  .header-logo {
+    max-width: 150px;
   }
   
   .header-section {
