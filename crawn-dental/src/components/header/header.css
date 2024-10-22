@@ -1,92 +1,65 @@
 .body {
   box-sizing: border-box;
-  margin: 0 auto;
+  max-width: 1200px;
 }
 
 .header-container {
-  width: 1200px;
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 15px;
-  padding-right: 15px;
-  position: absolute;
-  z-index: 9;
-  display: inline-block;
-  justify-content: center;
+  max-width: 1000px;
+  display: flex;
+  justify-content: space-between;
   align-items: center;
+  padding: 30px;
+  position: absolute;
+  left: 15%;
+  gap: 300px;
 }
 
-@media screen and (min-width: 767px) {
-  .header-container {
-    width: 740px;
+@media (max-width: 1230px) {
+  .container {
+    max-width: 960px;
   }
 }
-@media screen and (min-width: 992px) {
-  .header-container {
-    width: 970px;
+
+@media (max-width: 991px) {
+  .container {
+    max-width: 730px;
   }
 }
-@media screen and (min-width: 1200px) {
-  .header-container {
-    width: 1170px;
-  }
-}
-@media screen and (min-width: 1640px) {
-  .header-container {
-    width: 1300px;
+
+@media (max-width: 767px) {
+  .container {
+    max-width: 570px;
   }
 }
 
 .header-logo {
-  max-width: 150px;
+  flex: 1;
 }
 
-.header-info {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding-top: 25px;
-  padding-bottom: 25px;
+.header-logo img {
+  max-height: 70px;
 }
 
 .header-section {
   display: flex;
+  justify-content: space-around;
   align-items: center;
-  gap: 45px;
-}
-/* .header-section-phone {
-  padding: 0px 20px;
-}
-
-.header-label-phone {
-  font-weight: normal;
-}
-
-.header-info-phone {
-  font-weight: bold;
+  text-align: right;
 }
 
 .header-section-phone,
+.header-section-address,
 .header-section-hours {
-  text-align: center;
-  background-color: white;
-  padding: 0px 20px;
-  border-radius: 15px;
+  margin-left: 20px;
 }
 
+.header-label-phone,
 .header-label {
   font-weight: bold;
-  margin-bottom: -14px;
-  color: #28b7bb;
+  margin-bottom: 5px;
 }
 
+.header-info-phone,
 .header-info {
-  font-size: 0.9em;
-  color: #000000;
+  margin: 0;
 }
-
-.header-logo {
-  height: auto;
-  width: auto;
-  margin-right: 50%;
-} */

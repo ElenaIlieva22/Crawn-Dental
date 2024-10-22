@@ -2,6 +2,7 @@ import './App.css';
 import React from 'react';
 import Header from './components/Header/header';
 import Backgrounds from './components/Backgrounds/backgrounds';
+import Hero from './components/Hero/hero';
 
 
 
@@ -10,6 +11,7 @@ function App() {
   <div>
       <Header/>
       <Backgrounds/>
+      <Hero />
   </div>
   )
 }

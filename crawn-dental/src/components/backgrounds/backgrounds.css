@@ -1,36 +1,34 @@
-.bg-section {
-    display: flex;
-    flex-direction: column;
-    position: relative;
-    z-index: 2;
+.body {
+  box-sizing: border-box;
+  max-width: 1200px;
+}
+ 
+ .bg-section {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 10px;
+  /* z-index: 1; */
+  position: relative;
+ 
 }
 
 .first-bg {
-  background-image: url("../../assets/Background/bg1.png");
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 100vh;
-  /* height: 33.3%; */
-  border: 1px solid red;
-  opacity: 30%;
+background-image: url("../../assets/Background/bg1.png");
 }
 
 .secound-bg {
-  background-image: url("../../assets/Background/bg2.png");
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 100vh;
-  /* height: 33.3%; */
-  border: 1px solid blue;
-  opacity: 30%;
+background-image: url("../../assets/Background/bg2.png");
 }
 
 .third-bg {
-  background-image: url("../../assets/Background/bg3.png");
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 100vh;
-  /* height: 33.3%; */
-  border: 1px solid green;
-  opacity: 30%;
+background-image: url("../../assets/Background/bg3.png");
+}
+
+.first-bg,
+.secound-bg,
+.third-bg {
+background-size: cover;
+background-repeat: no-repeat;
+height: 100vh;
+opacity: 40%;
 }
