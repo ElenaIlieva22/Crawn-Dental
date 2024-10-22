@@ -5,10 +5,11 @@ import logo from "../../assets/Logo/logo.png";
 function Header() {
   return (
     <header className="header-container">
+      <div className="header-info">
       <div className="header-logo">
         <img src={logo} alt="logo" />
       </div>
-      <div className="header-info">
+      <div className="header-section">
         <div className="header-section-phone">
           <p className="header-label-phone">Call us now</p>
           <p className="header-info-phone">+ 389 70 555 666</p>
@@ -33,7 +34,8 @@ function Header() {
             Sunday: Closed
           </p>
         </div>
-      </div>
+        </div>
+        </div>
     </header>
   );
 }

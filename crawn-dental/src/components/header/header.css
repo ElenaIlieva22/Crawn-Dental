@@ -3,13 +3,17 @@
   margin: 0 auto;
 }
 
-
 .header-container {
-  width: 100%;
-  margin-right: auto;
+  width: 1200px;
   margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
   position: absolute;
-  z-index: 1;
+  z-index: 9;
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
 }
 
 @media screen and (min-width: 767px) {
@@ -33,63 +37,56 @@
   }
 }
 
+.header-logo {
+  max-width: 150px;
+}
 
+.header-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
 
+.header-section {
+  display: flex;
+  align-items: center;
+  gap: 45px;
+}
+/* .header-section-phone {
+  padding: 0px 20px;
+}
 
+.header-label-phone {
+  font-weight: normal;
+}
 
+.header-info-phone {
+  font-weight: bold;
+}
 
-/* .header-container {
-    display: flex;
-    justify-content: space-between; 
-    align-items: center;
-    padding: 0px 10%;
-    position: absolute;
-    z-index: 1;
-    max-width: 1200px;
-  } */
-  
-  .header-info {
-    display: flex;
-    flex-direction: row;
-  }
+.header-section-phone,
+.header-section-hours {
+  text-align: center;
+  background-color: white;
+  padding: 0px 20px;
+  border-radius: 15px;
+}
 
+.header-label {
+  font-weight: bold;
+  margin-bottom: -14px;
+  color: #28b7bb;
+}
 
-  .header-logo {
-    max-width: 150px;
-  }
-  
-  .header-section {
-    text-align: center;
-    background-color: white;
-    padding: 0px 20px;
-    border-radius: 15px;
-  }
+.header-info {
+  font-size: 0.9em;
+  color: #000000;
+}
 
-  .header-section-phone {
-    padding: 0px 20px;
-  }
-
-  .header-label-phone {
-    font-weight: normal;
-  }
-
-  .header-info-phone {
-    font-weight: bold;
-  }
-  
-  .header-label {
-    font-weight: bold;
-    margin-bottom: -14px;
-    color: #28B7BB;
-  }
-  
-  .header-info {
-    font-size: 0.9em;
-    color: #000000;
-  }
-
-  .header-logo {
-    height: auto;
-    width: auto;
-    margin-right: 50%;
-  }
+.header-logo {
+  height: auto;
+  width: auto;
+  margin-right: 50%;
+} */
