@@ -1,8 +1,8 @@
 import './App.css';
 import React from 'react';
 
-import Header from './components/Header/header';
-import Backgrounds from './components/Backgrounds/backgrounds';
+import Header from './components/header/header.js';
+import Backgrounds from './components/backgrounds/backgrounds.js';
 
 
 function App() {
