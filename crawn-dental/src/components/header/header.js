@@ -5,6 +5,7 @@ import logo from "../../assets/Logo/logo.png";
 function Header() {
   return (
     <header className="header-container">
+      
       <div className="header-logo">
         <img src={logo} alt="logo" />
       </div>

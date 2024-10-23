@@ -5,6 +5,8 @@ function Backgrounds() {
   return (
     <div className='bg-section'>
       <div className="first-bg">
+      <div className="gradientRight">
+      </div>
         <img src="" alt="" />
       </div>
 
