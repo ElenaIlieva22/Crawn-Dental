@@ -1,15 +1,13 @@
 import './App.css';
 import React from 'react';
-import Header from './components/Header/header';
-import Backgrounds from './components/Backgrounds/backgrounds';
-import Hero from './components/Hero/hero';
-
-
+import Headers from './/components/header/header';
+import Backgrounds from '../src/components/backgrounds/backgrounds';
+import Hero from '../src/components/hero/hero';
 
 function App() {
   return (
   <div>
-      <Header/>
+      <Headers/>
       <Backgrounds/>
       <Hero />
   </div>
