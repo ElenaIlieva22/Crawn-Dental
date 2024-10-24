@@ -1,0 +1,9 @@
+.body {
+    box-sizing: border-box;
+    /* max-width: 1200px; */
+  }
+
+.block-hero {
+    position: absolute;
+    z-index: 3;
+}

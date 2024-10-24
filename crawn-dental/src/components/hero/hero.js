@@ -1,8 +1,9 @@
 import React from "react";
+import "./hero.css"
 
 function Hero() {
     return (
-        <div>
+        <section className="block-hero">
             <div>
             <h1>This is the team <br />
             responsible <br />
@@ -14,7 +15,7 @@ function Hero() {
             <div>
                 <button>Learn more</button>
             </div>
-        </div>
+        </section>
     )
 }
 
